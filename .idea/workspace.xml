@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="114ff883-ae57-47bf-a6ea-ce8171ddd557" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/domain/models/contact.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,11 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="product" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="29jg2dfeuL209p4VsXa9Gl9z9Cc" />
@@ -39,8 +48,9 @@
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -61,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653631784619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1653632912944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653632912944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,13 +97,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="221" y="56" key="SettingsEditor" timestamp="1653632575620">
+    <state width="1032" height="195" key="GridCell.Tab.0.bottom" timestamp="1653638964024">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="221" y="56" key="SettingsEditor/0.25.1440.790@0.25.1440.790" timestamp="1653632575620" />
-    <state x="320" y="138" key="Vcs.Push.Dialog.v2" timestamp="1653631786531">
+    <state width="1032" height="195" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1653638964024" />
+    <state width="1032" height="195" key="GridCell.Tab.0.center" timestamp="1653638964023">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
-    <state x="320" y="138" key="Vcs.Push.Dialog.v2/0.25.1440.790@0.25.1440.790" timestamp="1653631786531" />
+    <state width="1032" height="195" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1653638964023" />
+    <state width="1032" height="195" key="GridCell.Tab.0.left" timestamp="1653638964022">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1032" height="195" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1653638964022" />
+    <state width="1032" height="195" key="GridCell.Tab.0.right" timestamp="1653638964023">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1032" height="195" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1653638964023" />
+    <state x="221" y="56" key="SettingsEditor" timestamp="1653633234922">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="221" y="56" key="SettingsEditor/0.25.1440.790@0.25.1440.790" timestamp="1653633234922" />
+    <state x="320" y="138" key="Vcs.Push.Dialog.v2" timestamp="1653632914417">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="320" y="138" key="Vcs.Push.Dialog.v2/0.25.1440.790@0.25.1440.790" timestamp="1653632914417" />
   </component>
 </project>
