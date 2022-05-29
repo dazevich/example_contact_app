@@ -37,7 +37,9 @@ class ContactView extends StatelessWidget {
               ),
             ],
           ),
-          IconButton(onPressed: (){}, icon: Icon(
+          IconButton(onPressed: (){
+            Navigator.of(context).pushNamed('/contact/${contact.id}');
+          }, icon: Icon(
               Icons.arrow_forward_ios,
             color: Theme.of(context).colorScheme.primary,
           )),

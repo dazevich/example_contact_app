@@ -32,6 +32,11 @@ class Address {
     required this.zipCode,
     required this.geo,
   }) : assert(geo['lat'] != null && geo['lng'] != null);
+
+  @override
+  String toString() {
+    return '$zipCode $city, $street $suite';
+  }
 }
 
 class Company {

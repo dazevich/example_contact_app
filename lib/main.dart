@@ -8,8 +8,8 @@ void main() {
     theme: ThemeData.from(
         colorScheme: ColorScheme(
             brightness: Brightness.light,
-            primary: const Color(0xffd2c2d1),
-            onPrimary: const Color(0xffd2c2d1),
+            primary: const Color(0xff663399),
+            onPrimary: const Color(0xff663399),
             secondary: const Color(0xfff6efe9),
             onSecondary: const Color(0xfff6efe9),
             error: const Color(0xffff4c30),

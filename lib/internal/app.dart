@@ -1,4 +1,5 @@
 import 'package:example_contact_app/domain/providers/contacts_page_provider.dart';
+import 'package:example_contact_app/presentation/contact_detail/contact_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -13,10 +14,25 @@ class App extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (context) => ContactsPageProvider()),
       ],
-      child: const Scaffold(
-        body: SafeArea(
-          child: ContactsPage()
-        ),
+      child: Scaffold(
+        body: SafeArea(child: Navigator(
+          onGenerateRoute: (settings) {
+            final url = settings.name ?? '/';
+            if(url == '/') {
+              return MaterialPageRoute(
+                  builder: (context) => const ContactsPage());
+            } else {
+              final path = url.split('/');
+              final page = path[1];
+              final id = path[2];
+              switch (page) {
+                case 'contact':
+                  return MaterialPageRoute(
+                      builder: (context) => ContactDetail(id: id));
+              }
+            }
+          },
+        )),
       ),
     );
   }

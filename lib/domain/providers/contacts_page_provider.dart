@@ -13,7 +13,7 @@ class ContactsPageProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Iterable<Contact> mapWithFillter(List<Contact> list) => list.where((contact){
+  Iterable<Contact> mapWithFilter(List<Contact> list) => list.where((contact){
     if(_fillter != null) {
       final conditions = <bool>[
         contact.name.contains(_fillter!),

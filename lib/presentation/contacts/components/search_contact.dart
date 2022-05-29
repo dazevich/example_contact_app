@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import '../../../domain/providers/contacts_page_provider.dart';
@@ -17,18 +16,18 @@ class SearchContactInput extends StatelessWidget {
           context.read<ContactsPageProvider>().setFilter(text);
         },
         decoration: InputDecoration(
-          labelText: 'Поиск контакта',
+          labelText: 'имя, номер, компания...',
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(13),
           ),
           enabledBorder: OutlineInputBorder(
-            borderSide: BorderSide(
+            borderSide: const BorderSide(
               color: Color(0xffcccccc),
             ),
             borderRadius: BorderRadius.circular(13),
           ),
-          contentPadding: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
-          prefixIcon: Icon(Icons.search)
+          contentPadding: const EdgeInsets.symmetric(vertical: 5, horizontal: 20),
+          prefixIcon: const Icon(Icons.search)
         ),
       ),
     );

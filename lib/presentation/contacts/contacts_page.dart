@@ -17,7 +17,7 @@ class ContactsPage extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            SearchContactInput(),
+            const SearchContactInput(),
             FutureBuilder<List<Contact>>(
                 future: ApiUtil().fetchContacts(),
                 builder: (context, snapshot) {
@@ -25,7 +25,7 @@ class ContactsPage extends StatelessWidget {
                     return Column(
                       children: context
                           .watch<ContactsPageProvider>()
-                          .mapWithFillter(snapshot.data!)
+                          .mapWithFilter(snapshot.data!)
                           .map((e) => ContactView(contact: e))
                           .toList(),
                     );
